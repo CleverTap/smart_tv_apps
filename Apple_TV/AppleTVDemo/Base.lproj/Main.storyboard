@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder.AppleTV.Storyboard" version="3.0" toolsVersion="21225" targetRuntime="AppleTV" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="appleTV" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21207"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="AppleTVDemo" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="1920" height="1080"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eRE-5R-Uwf">
+                                <rect key="frame" x="765.5" y="260" width="389" height="86"/>
+                                <inset key="contentEdgeInsets" minX="40" minY="20" maxX="40" maxY="20"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Record User Event">
+                                    <color key="baseForegroundColor" red="0.062745098040000002" green="0.090196078430000007" blue="0.1529411765" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="recordEventAction:" destination="BYZ-38-t0r" eventType="primaryActionTriggered" id="szK-Ls-HHZ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bwJ-DQ-DKG">
+                                <rect key="frame" x="673.5" y="386" width="573" height="86"/>
+                                <inset key="contentEdgeInsets" minX="40" minY="20" maxX="40" maxY="20"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Record User Event with Props">
+                                    <color key="baseForegroundColor" red="0.062745098040000002" green="0.090196078430000007" blue="0.1529411765" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="recordEventWithPropsAction:" destination="BYZ-38-t0r" eventType="primaryActionTriggered" id="tlB-jI-3cw"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LKs-VL-kD0">
+                                <rect key="frame" x="745.5" y="512" width="429" height="86"/>
+                                <inset key="contentEdgeInsets" minX="40" minY="20" maxX="40" maxY="20"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Record OnUserLogin">
+                                    <color key="baseForegroundColor" red="0.062745098040000002" green="0.090196078430000007" blue="0.1529411765" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="onUserLoginAction:" destination="BYZ-38-t0r" eventType="primaryActionTriggered" id="Apm-3t-83Z"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="wu6-TO-1qx"/>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="bwJ-DQ-DKG" firstAttribute="top" secondItem="eRE-5R-Uwf" secondAttribute="bottom" constant="40" id="3bh-JW-YYl"/>
+                            <constraint firstItem="eRE-5R-Uwf" firstAttribute="top" secondItem="wu6-TO-1qx" secondAttribute="top" constant="200" id="3k7-ue-kdH"/>
+                            <constraint firstItem="LKs-VL-kD0" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="8pi-hn-hKD"/>
+                            <constraint firstItem="eRE-5R-Uwf" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="NG0-2R-NPC"/>
+                            <constraint firstItem="bwJ-DQ-DKG" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="SQy-ki-4hk"/>
+                            <constraint firstItem="LKs-VL-kD0" firstAttribute="top" secondItem="bwJ-DQ-DKG" secondAttribute="bottom" constant="40" id="xS7-X0-tSn"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="238" y="-73"/>
+        </scene>
+    </scenes>
+</document>
