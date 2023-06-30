@@ -13,9 +13,9 @@ To get started, sign up [here](https://clevertap.com/live-product-demo/)
 ## 🚀Installation
 
 Installation in different apps,
-1. [Android TV](/Android_TV/README.md)
+1. [Android TV](/Android_TV/README.MD)
 2. [Apple TV](/Apple_TV/README.md)
-3. [Fire TV](/Fire_TV/README.md)
+3. [Fire TV](/Fire_TV/README.MD)
 4. [Jio STB](/Jio_STB/README.md)
 5. [LG WebOS](/LG_WebOS/README.md)
 6. [Samsung Tizen](/Samsung_Tizen/README.md)
