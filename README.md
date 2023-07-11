@@ -24,6 +24,5 @@ Installation in different apps,
 * A [demo application](/Android_TV) showing the integration of our SDK in Android TV.
 * A [demo application](/Apple_TV) showing the integration of our SDK in Apple TV.
 * A [demo application](/Fire_TV) showing the integration of our SDK in Fire TV.
-* A [demo application] showing the integration of our SDK in Jio STB.
 * A [demo application](/LG_WebOS) showing the integration of our SDK in LG WebOS.
 * A [demo application](/Samsung_Tizen) showing the integration of our SDK in Samsung Tizen.
