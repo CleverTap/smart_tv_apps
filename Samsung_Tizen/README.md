@@ -17,7 +17,7 @@ Following are the steps,
 
 #### Initialise CleverTap 
 
-    Add clevertap script in index.html file
+   Add clevertap script in index.html file
 
 ```
 <script type="text/javascript">
@@ -37,7 +37,7 @@ clevertap.privacy.push({useIP: false}); //set the flag to true, if the user agre
 </script>
 ```
 
-####Send User Profile
+#### Send User Profile
 
 ```
 clevertap.onUserLogin.push({
@@ -49,7 +49,7 @@ clevertap.onUserLogin.push({
 })
 ```
 
-####Push Event
+#### Push Event
 
 ```
 clevertap.event.push("Product viewed");
@@ -64,17 +64,17 @@ clevertap.event.push("Product viewed", {
 });
 ```
 
-####Add Profile Properties
+#### Add Profile Properties
 
 ```
 cleverTapAPI.addMultiValueForKey("userTVCount","1")
 ```
 
-####Remove Profile Properties
+#### Remove Profile Properties
 
 ```
 cleverTapAPI.removeMultiValueForKey("userTVCount","1")
 ```
 
 
-###CleverTap Push Notifications do not work on Tizen as the Service worker works only on HTTPS connection or localhost. Not on file://
+### CleverTap Push Notifications do not work on Tizen as the Service worker works only on HTTPS connection or localhost. Not on file://
