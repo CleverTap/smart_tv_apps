@@ -1,9 +1,4 @@
 # ClevertapLGWebOS
-Install WebOS CLI - [CLI Install Link](https://webostv.developer.lge.com/develop/tools/cli-installation)
-
-Install [WebOS Simulator](https://webostv.developer.lge.com/develop/tools/simulator-installation).
-
-
 This is a sample project that shows how to integrate CleverTap Web SDK  With Samsung Tizen
 
 Following are the steps, 
