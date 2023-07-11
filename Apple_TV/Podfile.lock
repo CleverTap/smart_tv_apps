@@ -1,5 +1,5 @@
 PODS:
-  - CleverTap-iOS-SDK (5.0.1):
+  - CleverTap-iOS-SDK (5.1.0):
     - SDWebImage (~> 5.11)
 
 DEPENDENCIES:
@@ -10,7 +10,7 @@ SPEC REPOS:
     - CleverTap-iOS-SDK
 
 SPEC CHECKSUMS:
-  CleverTap-iOS-SDK: 9f6ac59f7f69fffd105201fe82b9068d0baa4d1b
+  CleverTap-iOS-SDK: da6e2a954488264d0431167243200ff21d52512a
 
 PODFILE CHECKSUM: 4e75a2c8dbdf697b9ee2f14745f54c56d1c0498d
 
