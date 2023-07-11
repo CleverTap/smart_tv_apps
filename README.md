@@ -18,7 +18,7 @@ Installation in different apps,
 3. [Fire TV](/Fire_TV/README.MD)
 4. [Jio STB](https://wizrocket.atlassian.net/wiki/spaces/EN/pages/3939467267/Jio+TV+STB+Integrating+CleverTap+SDK+And+Sending+user+profiles+and+events)
 5. [LG WebOS](/LG_WebOS/README.md)
-6. [Samsung Tizen](https://wizrocket.atlassian.net/wiki/spaces/EN/pages/3933274154/Samsung+Tizen+Integrating+CleverTap+Web+SDK)
+6. [Samsung Tizen](/Samsung_Tizen/README.md)
 
 ## 𝌡 Example Usage
 * A [demo application](/Android_TV) showing the integration of our SDK in Android TV.
