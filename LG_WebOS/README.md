@@ -19,7 +19,9 @@ Through CLI : [App Development](https://webostv.developer.lge.com/develop/tools/
 
 ### Step 6 -  Open simulator .app file inside the Simulator folder as mentioned in Step 2.
 
-
+<p align="center">
+  <img src="images/LGWebOS_installationGuide.png"/>
+</p>
 
 ### Step 7 -  In Simulator. Go to File → Launch App → select the folder of sampleApp  which has .ipk file 
 
