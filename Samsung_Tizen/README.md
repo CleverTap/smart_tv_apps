@@ -9,7 +9,15 @@ Following are the steps,
 
 ### Step 3 - Open Package Manager. Install ‘TV Extensions-7.0’ in Extension SDK
 
+<p align="center">
+  <img src="images/SamsungTizen_installationGuide.png"/>
+</p>
+
 ### Step 4 - Create the sample project, and update the index.html as required. Add the clevertap script in index.html
+
+<p align="center">
+  <img src="images/SamsungTizen_installationGuide2.png"/>
+</p>
 
 ### Step 5 - Run the project as ‘Tizen Web Simulator Application(Samsung TV)’
 
